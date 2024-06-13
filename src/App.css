@@ -23,6 +23,7 @@ a{
   font-size: 16px;
   padding:  0 15px;
   color: #fff !important;
+  display: inline-block;
 }
  ul{
     margin-bottom: 0 !important;

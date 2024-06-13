@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux';
 
 export default function Head({ searchid }) {
     const data = useSelector((state) => state.counter.cart);
-    return (
+    return (    
         <div className='pt-2 main shadow-lg  sticky-top'>
             <div className='container '>
                 <div className="row align-items-center">

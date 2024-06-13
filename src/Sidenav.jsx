@@ -5,10 +5,9 @@ export default function Sidenav() {
     const [data, setData] = useState(null)
     useEffect(() => {
         setTimeout(()=>{
-
             axios({
                 method: 'get',
-                url: 'https://dummyjson.com/products/categories',
+                url: 'https://dummyjson.com/products/category-list'
             })
                 .then(function (response) {
                     setData(response.data)

@@ -65,8 +65,7 @@ export default function Cardx({ search }) {
                             </div>
                         )
                     })
-            }
-           
+            }           
         </>
     )
 }
