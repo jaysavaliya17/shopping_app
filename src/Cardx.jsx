@@ -6,6 +6,9 @@ import { Link, useParams } from 'react-router-dom';
 export default function Cardx({ search }) {
     const [product, setProduct] = useState(null)
     const [searchCard, setSearchCard] = useState(null)
+    
+
+    
     const { title } = useParams();
     useEffect(() => {
         setTimeout(() => {
@@ -63,6 +66,7 @@ export default function Cardx({ search }) {
                         )
                     })
             }
+           
         </>
     )
 }
